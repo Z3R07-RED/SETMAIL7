@@ -15,7 +15,7 @@ DESCARGAR:
 ======
 
 ```
-git clone link
+git clone https://github.com/Z3R07-RED/SETMAIL7.git
 ```
 
 USAR:
