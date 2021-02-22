@@ -142,7 +142,7 @@ do
             fi
             echo -e "${RED_BC}Z3R07-RED${RESET} ${LEAD}Secret Club 07${RESET}"
             sleep 0.2
-            echo -e "Service ($server) $(date)"
+            echo -e "Service ($(randsetmaildata 5)$listnu) $(date)"
             sleep 3
             printf "${G}[*]${Y} [SERVER ]${W} ${G}[${C}%02d${G}]${W} - ${W}" $listnu
             printf "${C}EMAIL${W}${G} [${C}%02d${G}]${W}\n" $sersn
