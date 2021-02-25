@@ -2,27 +2,6 @@
 #SETMAIL7
 #Coded by Z3R07-RED 2021
 
-
-function setmail_start_function(){
-let nuss=0
-let sersn=0
-while :
-do
-    if [[ "$nuss" != 5 ]]; then
-        nuss=$(($nuss+1))
-        for sers in ${ServersList[@]};
-        do
-            sersn=$(($sersn+1))
-            echo "$sers $sersn"
-            sleep 0.3
-        done
-    else
-        break
-    fi
-
-done
-}
-
 function internet_connection(){
 curl -I "www.google.es" &> /dev/null
 if [[ $? -eq 0 ]]; then
@@ -53,7 +32,4 @@ function randsetmaildata(){
         done
 }
 
-#cu=$1
-#rand_mail=$(randsetmaildata $cu)
-#echo "$rand_mail"
 
